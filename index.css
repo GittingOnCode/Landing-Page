@@ -4,7 +4,6 @@ body {
    flex-direction: column;
 }
 
-
 .dark-background {
     background-color: #1F2937;
 }
@@ -81,13 +80,11 @@ div .container2 {
     justify-content: center;
 }
 
-
 div .information-img {
     display: flex;
     margin: auto;
     width: 70px; 
-    justify-content: center;
-    
+    justify-content: center; 
 }
  
 div img {
@@ -110,8 +107,6 @@ div img {
     font: #1f2937;
 }
 
-/*--- Container 4 ---*/
-
 .container4 {
     display: flex;
     flex-direction: column;
@@ -131,19 +126,16 @@ div.border {
     color: white;
 }
 
-
-
 .subscribe {
     border: 2px solid white;
 }
 
-
-
-/*--- Footer ---*/
-
 footer {
     background-color: #1F2937;
     color: #F9FAF8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 
