@@ -5,11 +5,8 @@ body {
 }
 
 
-/*--- Container 1 ---*/
-
 .dark-background {
-background-color: #1F2937;
-
+    background-color: #1F2937;
 }
 
 nav {
@@ -62,12 +59,14 @@ nav {
     margin-bottom: 24px;
 }
 
-button {
+.btn {
+    border: 0px;
     background-color: #3882f6;
+    color: white;
+    padding: 8px 24px;
+    cursor: pointer;
     border-radius: 8px;
 }
-
-/*--- Container2 ---*/
 
 div .container2 {
     display: flex;
@@ -100,12 +99,52 @@ div img {
 
 .container3 {
     background-color: #E5E7EB;
-    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
+.container3 p {
+    font-size: 36px;
+    font-weight: lighter;
+    font: #1f2937;
+}
+
+/*--- Container 4 ---*/
+
+.container4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div.border {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    background-color: #3882f6;
+    margin: 50px auto;
+    padding: 20px 40px;
+    width: 50%;
+    border-radius: 8px;
+    color: white;
+}
+
+
+
+.subscribe {
+    border: 2px solid white;
+}
+
+
+
+/*--- Footer ---*/
 
 footer {
     background-color: #1F2937;
     color: #F9FAF8;
 }
+
 
 
